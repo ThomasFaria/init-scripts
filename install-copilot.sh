@@ -2,8 +2,8 @@
 
 # Download files
 # Copilot
-wget --retry-on-http-error=429 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot/1.229.0/vspackage -O copilot.vsix.gz
-wget --retry-on-http-error=429 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot-chat/0.20.0/vspackage -O copilot-chat.vsix.gz
+wget --retry-on-http-error=429 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot/1.272.0/vspackage -O copilot.vsix.gz
+wget --retry-on-http-error=429 https://marketplace.visualstudio.com/_apis/public/gallery/publishers/GitHub/vsextensions/copilot-chat/0.23.0/vspackage -O copilot-chat.vsix.gz
 
 # Install extensions
 gunzip copilot.vsix.gz 
